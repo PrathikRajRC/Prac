@@ -1,0 +1,134 @@
+*{
+    font-family:Verdana,Tahoma, sans-serif;
+    text-align: center;
+}
+.intro-sec h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.intro-sec{
+    border: 2px solid black;
+    
+}
+#Who{
+    text-shadow: 1rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.clark{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 25%;
+    transition: transform 0.3s ease-in-out, border-radius 0.2s ease-in-out; 
+}
+.clark:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+  }
+.leetcode{
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.poster{
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    /* display:flex; */
+}
+
+.poster-div{
+    color: black;
+    /* border: 2px solid black; */
+    padding: 10px;
+    align-items: center;
+}
+.div1{
+    padding: 20px;
+    height: 200px;
+    width:200px ;
+    background-color: cadetblue;
+    border: 10px solid black;
+    border-width: 10px 10px 10px 10px;
+}
+.div1 p{
+    /* display: block; */
+    margin: 0;
+
+}
+.div2{
+    height: 200px;
+    width:200px ;
+    background-color: gold;
+    display: flex;
+    border: 30px solid black;
+    border-width: 20px 10px 20px 10px;
+    margin-left: 260px;
+}
+.div3{
+    height: 200px;
+    width:200px ;
+    background-color: indianred ;
+    display: flex;
+    border: 30px solid black;
+    border-width: 10px 10px 10px 10px;
+    margin-left: 40px;
+}
+
+.meme{
+    border: 2px solid black;
+    margin: 10px 0px 10px 0px;
+
+    background-color: black;
+
+}
+.meme-con {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+ 
+}
+.meme h3,h2{
+    font-family:co;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+.meme img{
+    border: 10px solid white;
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    
+    .intro-sec{
+        background-color: rgb(184, 255, 231);
+    }
+    .intro-sec h1{
+        font-size: 50px;
+
+    }
+    .intro-sec h2{
+        font-size: 20px;
+        color: black;
+    }
+}
